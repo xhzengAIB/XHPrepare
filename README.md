@@ -67,7 +67,7 @@ Prepare 是记录一些总结，比如在换新电脑的时候，配置锋利的
 ````objc
   pod search MessageDisplayKit
 ````
-如果出现如下字眼，那说明可以开始使用Cocoapods了。
+如果出现如下字眼，那说明可以开始使用Cocoapods了。                             
 -> MessageDisplayKit (0.2.7)
    An IM App like WeChat App has to send text, pictures, audio, video, location
    messaging, managing address book, more interesting features.
