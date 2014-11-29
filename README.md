@@ -62,6 +62,21 @@ Prepare 是记录一些总结，比如在换新电脑的时候，配置锋利的
 ````
 
 2. 保护身体的App，这个一定得装。
+3. 安装Cocoapods，必须得安装啊！不是依赖，而是好管理源码！
+把你的VPN连接上，得到特权，来吧！做你喜欢做的事情，【sudo】 gem install cocoapods，那么我们来测试一下是否安装成功。
+````objc
+  pod search MessageDisplayKit
+````
+如果出现如下字眼，那说明可以开始使用Cocoapods了。
+-> MessageDisplayKit (0.2.7)
+   An IM App like WeChat App has to send text, pictures, audio, video, location
+   messaging, managing address book, more interesting features.
+   pod 'MessageDisplayKit', '~> 0.2.7'
+   - Homepage: https://github.com/xhzengAIB/MessageDisplayKit
+   - Source:   https://github.com/xhzengAIB/MessageDisplayKit.git
+   - Versions: 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2, 0.1.9, 0.1.8,
+   0.1.7, 0.1.6, 0.1.5, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1.0 [master repo]
+
 
 ### 需要重新学习和认识的知识
 
