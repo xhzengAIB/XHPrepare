@@ -33,6 +33,33 @@ Prepare 是记录一些总结，比如在换新电脑的时候，配置锋利的
 ### 需要总结和注意的项
 
 1. 终端的配置
+想找到.gitconfig文件，却无从下手，对终端一无所知，在春哥的调教下，终于有一些了解了，于是找到了对应文件，在终端输入以下命令：
+````objc
+  cd /Users/这里改为你的机器名/
+  vi .gitconfig
+  这时候处于查看状态，键盘输入i，进入编辑状态
+  插入
+  [alias]
+        co = checkout
+        ci = commit -a
+        st = status
+        br = branch
+        tree = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
+
+  个人之前的配置文件如下：
+  [user]
+        name = Jack
+        email = xhzengAIB@gmail.com
+  [alias]
+        co = checkout
+        ci = commit -a
+        st = status
+        br = branch
+        l  = log --stat
+
+还有另外一个用法，SSH端口、git地址端口，这里就不放出来了！
+````
 2. Xcode插件的安装
 3. 保护身体的App，这个一定得装。
 
