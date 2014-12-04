@@ -32,7 +32,7 @@ Prepare 是记录一些总结，比如在换新电脑的时候，配置锋利的
 
 ### 需要总结和注意的项
 
-1. 终端的配置
+####1. 终端的配置
 想找到.gitconfig文件，却无从下手，对终端一无所知，在春哥的调教下，终于有一些了解了，于是找到了对应文件，在终端输入以下命令：
 ````objc
   cd /Users/这里改为你的机器名/
@@ -61,8 +61,8 @@ Prepare 是记录一些总结，比如在换新电脑的时候，配置锋利的
 还有另外一个用法，SSH端口、git地址端口，这里就不放出来了！
 ````
 
-2. 保护身体的App，这个一定得装。
-3. 安装Cocoapods，必须得安装啊！不是依赖，而是好管理源码！
+####2. 保护身体的App，这个一定得装。
+####3. 安装Cocoapods，必须得安装啊！不是依赖，而是好管理源码！
 把你的VPN连接上，得到特权，来吧！做你喜欢做的事情，【sudo】 gem install cocoapods，那么我们来测试一下是否安装成功。
 ````objc
   pod search MessageDisplayKit
@@ -99,6 +99,33 @@ Prepare 是记录一些总结，比如在换新电脑的时候，配置锋利的
 ### 需要重新学习和认识的知识
 
 1. App的icon处理，还是有点闹心的，还是用插件吧！只要设计师给你一个1024像数的icon，你就可以完美的生成其他icon，所以我必备的装备哦！无论是个人开发者还是公司开发者，节省时间嘛！插件的链接[makeappicon](http://makeappicon.com/)。
+
+### 有趣的配置
+在命令行git提交的时候，自动拍照留影。
+
+- 确保你系统有brew
+- 安装命令行拍照程序
+```
+brew install imagesnap
+```
+- 确保 ~/.git_template/hooks 目录存在
+```
+mkdir -p ~/.git_template/hooks
+```
+- 在上面目录下面建立post-commit文件
+- 将以下内容键入并保存, file=后面是你保存图片的目录，请自行更改
+```
+#!/bin/sh
+file="/Users/leros/Pictures/snapshot/Git_$(date +%Y-%m-%d-%H.%M.%S).jpg"
+echo "Taking capture into ${file}!"
+imagesnap -q  -w 3 $file &
+```
+- 添加文件执行权限
+```
+chmod +x ~/.git_template/hooks/post-commit
+```
+- 以后执行git ci -m "" 的时候，会自动调用这个脚本，生成快照。
+- have a fun!
 
                   
 未完待续......
