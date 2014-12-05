@@ -120,6 +120,7 @@ file="/Users/leros/Pictures/snapshot/Git_$(date +%Y-%m-%d-%H.%M.%S).jpg"
 echo "Taking capture into ${file}!"
 imagesnap -q  -w 3 $file &
 ```
+注意/Users/leros/Pictures/snapshot是我的文件目录，请你自行修改，如果你只是复制的话，那很大可能GG。
 - 添加文件执行权限
 ```
 chmod +x ~/.git_template/hooks/post-commit
