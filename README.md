@@ -66,7 +66,7 @@ Prepare 是记录一些总结，比如在换新电脑的时候，配置锋利的
 2. 安装一些好用的App
 
 能同步书签的浏览器-----[Chrome for Mac](https://www.google.com/intl/en/chrome/browser/desktop/index.html)                    
-可以写PHP代码的IDE---Sublime                    
+可以写PHP代码的IDE---[Sublime](http://www.sublimetext.com/)                    
 SVN工具------------------Versions                    
 处理多邮箱的邮件-------Foxmail             
 云笔记--------------------Evernote
