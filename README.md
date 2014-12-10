@@ -71,6 +71,7 @@ SVN工具------------------[Versions](http://versionsapp.com/)
 处理多邮箱的邮件-------[Foxmail](https://itunes.apple.com/cn/app/foxmail/id617950461?mt=12)             
 云笔记--------------------[Evernote](https://evernote.com/intl/zh-tw/download/)                  
 Git工具-------------------[Github](https://mac.github.com/)
+FTP工具-------------------[FileZilla](https://filezilla-project.org/)
                     
 3. 保护身体的App，这个一定得装。
 
