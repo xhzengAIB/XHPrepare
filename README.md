@@ -72,6 +72,7 @@ SVN工具------------------[Versions](http://versionsapp.com/)
 云笔记--------------------[Evernote](https://evernote.com/intl/zh-tw/download/)                  
 Git工具-------------------[Github](https://mac.github.com/)
 FTP工具-------------------[FileZilla](https://filezilla-project.org/)
+GIF录制工具---------------[LICEcap](http://www.cockos.com/licecap/)
                     
 3. 保护身体的App，这个一定得装。
 
