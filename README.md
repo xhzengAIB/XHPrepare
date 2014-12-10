@@ -114,7 +114,7 @@ GIF录制工具-------------[LICEcap](http://www.cockos.com/licecap/)
 
 ### 需要重新学习和认识的知识
 
-1. App的icon处理，还是有点闹心的，还是用插件吧！只要设计师给你一个1024像数的icon，你就可以完美的生成其他icon，所以我必备的装备哦！无论是个人开发者还是公司开发者，节省时间嘛！插件的链接[makeappicon](http://makeappicon.com/)。
+1. App的icon处理，还是有点闹心的，还是用插件吧！只要设计师给你一个1024像数的icon，你就可以完美的生成其他icon，所以我必备的装备哦！无论是个人开发者还是公司开发者，节省时间嘛！                   [点击这里进入插件makeappicon](http://makeappicon.com/)。
 
 2. 有趣的配置
 在命令行git提交的时候，自动拍照留影。
