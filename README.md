@@ -124,6 +124,7 @@ gem sources -a http://ruby.taobao.org/
 
 - 确保你系统有brew，如果没有，那么你可以在google上找答案。
 - 安装命令行拍照程序
+如果没有安装brew的话，[请点击这里](http://brew.sh/index_zh-cn.html)                     
 ```
 brew install imagesnap
 ```
