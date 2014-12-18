@@ -81,6 +81,8 @@ GIF录制工具-------------[LICEcap](http://www.cockos.com/licecap/)
 ````objc
   pod search MessageDisplayKit
 ````
+这时候会提示：Setting up CocoaPods master repo                     
+
 如果出现如下字眼，那说明可以开始使用Cocoapods了。                             
 -> MessageDisplayKit (0.2.7)
    An IM App like WeChat App has to send text, pictures, audio, video, location
