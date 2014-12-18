@@ -102,7 +102,8 @@ GIF录制工具-------------[LICEcap](http://www.cockos.com/licecap/)
 
   http://ruby.taobao.org/
   http://rubygems.org/
-  这时候我发现已经添加过http://ruby.taobao.org/，所以我不需要重复的添加了，（补上添加源的命令 gem sources -a http://ruby.taobao.org/）                         
+  这时候我发现已经添加过http://ruby.taobao.org/，所以我不需要重复的添加了，                
+  （补上添加源的命令 gem sources -a http://ruby.taobao.org/）                         
   但是这时候需要删除另外一个源，那么网上的教程可能是:
   gem sources --remove https://rubygems.org/
   但是我这里却是http，而不是https，所以需要自己对应好，才能删除成功啊！
