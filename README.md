@@ -75,7 +75,7 @@ FTP工具------------------[FileZilla](https://filezilla-project.org/)
 GIF录制工具-------------[LICEcap](http://www.cockos.com/licecap/)                    
                     
 3. 保护身体的App，这个一定得装。                   
-来一个Xcode主题插件，是[某开发者](https://github.com/makeLaugh)调试了很久，[点击这里](https://github.com/xhzengAIB/xcodeTheme)即可下载安装。
+来一个Xcode主题插件，是[makeLaugh开发者](https://github.com/makeLaugh)调试了很久，[点击这里](https://github.com/xhzengAIB/xcodeTheme)即可下载安装。
 
 4. 安装Cocoapods，必须得安装啊！不是依赖，而是好管理源码！
 把你的VPN连接上，得到特权，来吧！做你喜欢做的事情，【sudo】 gem install cocoapods，那么我们来测试一下是否安装成功。
